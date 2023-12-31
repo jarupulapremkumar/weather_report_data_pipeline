@@ -76,7 +76,7 @@ print(location.raw)
 
 <b>PyPI</b> : https://pypi.org/project/geopy/
 
- ##  OpenWeatherAPI 
+ <h2><a href="https://openweathermap.org/current">OpenWeatherAPI</a></h2> 
 
  
 ### Call current weather data
