@@ -1,9 +1,10 @@
 <h1> Weather report data pipeline </h1>
 
 Weather report data pipeline is a end to end data pieline which collects weather data of indian cities and stores them in mysql database. to collect the data first we generate a random city name using faker then we use geopy to get latitude and longitude of that city later we use openweather api to get weather data.
-I have implemented the code in two different ways
+I have implemented the code in 3 different ways
 1. Standanole python code which retrieves weather data and stores it in mysql
 2. Kafka python code to retrieves weather data for every millisecond and store it in mysql database
+3. automate using airflow
    
 <h2><a href="https://pypi.org/project/Faker/">FAKER </a> package</h2>
 Faker is a Python package that generates fake data for you. Whether you need to bootstrap your database, create good-looking XML documents, fill-in your persistence to stress test it, or anonymize data taken from a production service, Faker is for you.
